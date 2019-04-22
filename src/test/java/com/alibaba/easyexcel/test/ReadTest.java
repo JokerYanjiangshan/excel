@@ -185,4 +185,12 @@ public class ReadTest {
         }
     }
 
+    public void printapps(List<Object> datas){
+        int i=0;
+        for (Object ob:datas) {
+            System.out.println(i++);
+            System.out.println(ob);
+        }
+    }
+
 }
