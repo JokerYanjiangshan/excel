@@ -193,7 +193,7 @@ public class ReadTest {
         }
     }
 
-    public void printapp(List<Object> datas){
+    public void printappppa(List<Object> datas){
         int i=0;
         for (Object ob:datas) {
             System.out.println(i++);
