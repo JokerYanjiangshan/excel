@@ -12,7 +12,7 @@ import org.junit.Test;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
-//woshixiaoyuan  zhende 我才不接
+//woshixiaoyuan  zhende 我才
 public class ReadTest {
 
 
@@ -193,4 +193,11 @@ public class ReadTest {
         }
     }
 
+    public void printapp(List<Object> datas){
+        int i=0;
+        for (Object ob:datas) {
+            System.out.println(i++);
+            System.out.println(ob);
+        }
+    }
 }
